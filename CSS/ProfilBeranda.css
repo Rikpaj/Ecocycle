@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(63, 140, 255, 1) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.side-nav {
+  width: 250px;
+  height: 89%;
+  position: fixed;
+  top: 14%;
+  left: -10;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #555;
+  z-index: 1000;
+}
+
+.side-nav .user {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.side-nav .user div {
+  display: block;
+}
+
+.side-nav .user-img {
+  margin: 0;
+}
+
+.side-nav ul li p {
+  display: block;
+}
+
+.side-nav ul li img {
+  margin-right: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user h2 {
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.user-img {
+  width: 20%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.star-img {
+  width: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 30px 0;
+  display: flex;
+  align-items: self-end;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+ul li img {
+  width: 60px;
+  margin-left: -25px;
+}
+
+ul li p {
+  white-space: nowrap;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 30px 0;
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.side-nav ul li {
+  justify-content: flex-start;
+}
+
+.content {
+    top: 0;
+}
+
+/* container */
+
+.card-1 {
+    position: absolute;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 35%;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.card2 {
+  position: absolute;
+  align-items: center;
+  margin-left: 65%;
+  margin-top: 35%;
+  border: 3px solid #000000;
+  border-radius: 20px;
+}
+
+.card2 img {
+  border-radius: 20px;
+}
+
+.card3 {
+    position: absolute;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 55%;
+    border: 3px solid #000000;
+    border-radius: 20px;
+} 
+
+.card3 img {
+  border-radius: 20px;
+}
+
+.card4 {
+    position: absolute;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: 55%;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+ 
+.card-body {
+    background-color: #5BB2BC;
+    align-items: center;
+    padding: 6px;
+    margin-top: -10px;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.card-body .card-text {
+    text-align: center;
+}
+

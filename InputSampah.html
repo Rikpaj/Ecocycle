@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Sampah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/InputSampah.css">
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg" style="background-image: radial-gradient(circle at -18.3% 31.7%, #FFEDE9 0, #FFEDE9 25%, #CFE2E8 75%, #CFE2E8 75%, #CFE2E8 100%);">
+  <div class="container">
+    <a class="navbar-brand" href="about us.html">
+      <img src="/assets/logo.png" alt="Logo" width="100" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Beranda.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="InputSampah.html">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="a&b.html">Content & Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="marketplace.html">Marketplace</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" id="btnprofile" data-bs-toggle="modal" data-bs-target="#exampleModal">Profile</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+
+                <div class="kertas">
+                <a href="Detail.html" id="keluar"><img src="/assets/MacOS Close.png" alt="close"></a>
+                <img id="gambarmr" src="/assets/mrbi.png" alt="icon" >
+                <div class="satu">
+                  <p class="selamat-datang">Selamat Datang,</p>
+                  <p class="selamat-datang2">MR. Be</p>
+                </div>
+                  <div class="kelola">
+                    <button><img id="icon" src="/assets/Male User.png" alt="icon" ><a href="ProfilBeranda.html" id="text1">Kelola akun anda</a></button>
+                  </div>
+                  <div class="kelola">
+                    <button><img id="icon2" src="/assets/Logout Rounded.png" alt="icon" ><a href="Beranda.html" id="text2">Keluar</a></button>
+                  </div>
+                </div>
+
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir -->
+
+  <!--  -->
+  <div class="kertas">
+    <div class="tulisan">
+      <h3><strong>Input Sampah</strong></h3><br>
+      <p>Bantu kita membuat dunia lebih bersih dengan memasukkan informasi tentang sampah yang Anda temukan. Dengan
+        berbagi data ini, kami dapat merekomendasikan produk kerajinan yang dapat Anda beli atau membuat dari sampah
+        ini.</p><br>
+    </div>
+    <div id="groupCard" class="card-group">
+      <form>
+        <div class="input-group mb-3">
+          <label for="jenis">jenis sampah :</label>
+          <input type="text" name="jenis" id="jenis" />
+        </div>
+        <div class="input-group mb-3">
+          <label for="jenis">jenis sampah :</label>
+          <input type="text" name="jenis" id="jenis" />
+        </div>
+        <div class="input-group mb-3">
+          <label for="jenis">jenis sampah :</label>
+          <input type="text" name="jenis" id="jenis" />
+          <!-- <button type="button" id="tomb" onclick="addForm()">+</button> -->
+          <button type="button" id="tomb">+</button>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg" id="tombol" onclick="submitForm()"><a
+            href="artikelkerajinan.html" id="kirim"><strong>Kirim</strong></a></button>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="/Javascipt/inputsampah.js"></script>
+
+</html>

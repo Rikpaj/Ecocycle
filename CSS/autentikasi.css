@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap");
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.template {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(63, 140, 255, 1) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wrapper {
+  margin-inline: auto;
+  width: 100%;
+  width: min(900px, 100% - 3rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.kotak-kecil {
+  width: 40px;
+  height: 50px;
+  /* background-color: dodgerblue; */
+  border-radius: 6px;
+
+}
+
+.kotak-kecil input {
+  text-align: center;
+}
+
+/* .buttonsend {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  background-color: blue;
+  border-radius: 15%;
+} */
+

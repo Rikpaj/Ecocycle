@@ -1,0 +1,9 @@
+.delete {
+    position: relative;
+    width: 100%;
+    height: 46px;
+    background-image: url(./public/delete@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }

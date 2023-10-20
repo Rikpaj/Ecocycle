@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* pop up profile */
+#btnprofile {
+    color: white;
+    background-color: #3F8CFF;
+    border: none;
+}
+
+.modal-content{
+    border-radius: 20px;
+    margin-left: 115%;
+    margin-bottom: 10px;
+    width: 307px;
+    height: 357px;
+}
+.modal-header {
+    background-color: #76D2F7;
+    border-radius: 20px;
+    width: 307px;
+    height: 357px;
+}
+
+#gambarmr {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    width: 97px;
+    height: 99px;
+}
+
+.selamat-datang {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.selamat-datang2 {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 95px;
+}
+
+.dua {
+    border: 1px solid white;
+}
+
+#keluar {
+    margin-left: 86%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+.kelola button {
+    border: 4px solid white;
+    border-radius: 5px;
+    background-color: #3F8CFF;
+    width: 273px;
+    height: 45px;
+}
+
+#text1 {
+    color: white;
+    text-decoration: none;
+    margin-right: 75px;
+    margin-left: 20px;
+}
+
+#text2 {
+    color: white;
+    text-decoration: none;
+    margin-right: 150px;
+    margin-left: 20px;
+}
+
+#icon {
+    width: 32px;
+    height: 30px;
+    color: white;
+}
+
+#icon2 {
+    width: 32px;
+    height: 30px;
+    color: white;
+}
+
+/* scearh */
+.input-group{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.form-outline {
+    width: 80%;
+}
+
+.gambar3{
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+#icontop{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.koran{
+    margin: 30px;
+}
+
+.koran1{
+    background-color: #76D2F7;
+    margin-left: 5px;
+}
+
+#gmbr {
+    width: 475px;
+    height: 442px;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+#Tas{
+    width: 475px;
+    height: 442px;
+}
+
+.judul{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}

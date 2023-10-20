@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    background-image: url(/assets/background.png);
+    background-size: 100%;
+    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+
+#gambar img {
+    height: 300px;
+}
+
+.card {
+    margin: 25px;
+    border: none;
+    text-align: justify;
+    background: none;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.btn {
+    color: black;
+    font-weight: bold;
+}

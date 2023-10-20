@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --logo: Raleway;
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+  --font-inria-sans: "Inria Sans";
+  --font-istok-web: "Istok Web";
+  --font-jaldi: Jaldi;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --logo-size: 32px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-mini: 15px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dodgerblue: #3f8cff;
+  --color-whitesmoke: #f0f0f0;
+  --color-black: #000;
+  --color-skyblue: #76d2f7;
+  --color-gray-100: rgba(0, 0, 0, 0.63);
+  --color-darkgray: #aeaeae;
+  --color-crimson: #d0011b;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+}
